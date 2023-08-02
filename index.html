@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maybelline</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.16.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3" id="home">
+          <div class="container container-fluid">
+            <a class="navbar-brand text-white" href="#">MAYBELLINE</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link mx-2 active text-white"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2 text-white" href="#productos">
+                    Productos
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2 text-white" href="#beneficios"
+                    >Sobre nosotros</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2 text-white" href="#galeria"
+                    >Galeria</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2 text-white" href="#contacto"
+                    >Contáctanos</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <section class="seccion-banner">
+        <img
+          class="img-fluid w-100"
+          src="./img/bannerweb.jpg"
+          alt="Banner Maybelline Lifter Gloss"
+        />
+      </section>
+
+      <section class="seccion-productos py-5" id="productos">
+        <div class="container">
+          <h1 class="mb-4">Galería de productos</h1>
+          <div class="row justify-content-center text-center">
+            <div class="col-md-8 col-lg-6"></div>
+          </div>
+          <div class="row d-flex">
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div id="product-1" class="producto">
+                <div class="parte-1">
+                  <img
+                    src="https://farmacityar.vteximg.com.br/arquivos/ids/221695-600-600/227663_brillo-de-labios-maybelline-lifter-gloss-x-5-4-ml_imagen-1.jpg?v=637864904473530000"
+                    alt="Lifter Gloss"
+                  />
+                </div>
+                <div class="parte-2">
+                  <h3 class="product-title">Maybelline Lifter Gloss</h3>
+                  <h4 class="precio-viejo">$7.899,99</h4>
+                  <h4 class="product-price">$6.599,99</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div id="product-2" class="producto">
+                <div class="parte-1">
+                  <span class="descuento">15% off</span>
+                  <img
+                    src="https://d22fxaf9t8d39k.cloudfront.net/80de8ae6cb12fef19e7b085351c7026b94ce384443267dfe3cf3a0ee3fa758f263233.webp"
+                    alt="Corrector"
+                  />
+                </div>
+                <div class="parte-2">
+                  <h3 class="product-title">Maybelline Corrector Fit Me</h3>
+                  <h4 class="precio-viejo">$4.599,99</h4>
+                  <h4 class="product-price">$3.909,99</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div id="producto-3" class="producto">
+                <div class="parte-1">
+                  <img
+                    src="https://static.beautytocare.com/media/catalog/product/cache/global/image/1300x1300/85e4522595efc69f496374d01ef2bf13/m/a/maybelline-color-sensational-made-for-all-lips-388-plum-for-me-10g.jpg"
+                    alt="Labial Maybelline"
+                  />
+                </div>
+                <div class="parte-2">
+                  <h3 class="product-title">
+                    Maybelline Color Sensational Labial
+                  </h3>
+                  <h4 class="product-price">$5.399,99</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div id="producto-4" class="producto">
+                <div class="parte-1">
+                  <span class="nuevo">nuevo</span>
+                  <img
+                    src="https://http2.mlstatic.com/D_NQ_NP_840440-MLU69860146388_062023-O.webp"
+                    alt="Corrector Maybelline"
+                  />
+                </div>
+                <div class="parte-2">
+                  <h3 class="product-title">
+                    Maybelline Instant Age Rewind Corrector
+                  </h3>
+                  <h4 class="product-price">$4.399,99</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div id="product-1" class="producto">
+                <div class="parte-1">
+                  <span class="descuento">15% off</span>
+
+                  <img
+                    src="https://distribuidorasaray.com/wp-content/uploads/2021/08/BUFF-BEIGE.webp"
+                    alt="Base Maybelline"
+                  />
+                </div>
+                <div class="parte-2">
+                  <h3 class="product-title">Maybellie Fit Me Poreless Base</h3>
+                  <h4 class="precio-viejo">$7.999,99</h4>
+                  <h4 class="product-price">$6.799,99</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div id="product-2" class="producto">
+                <div class="parte-1">
+                  <img
+                    src="https://getthelookar.vteximg.com.br/arquivos/ids/168222-600-600/227903_mascara-de-pestanas-maybelline-sensational-sky-high-wtp_imagen-1.jpg?v=637890177788730000"
+                    alt="Mascara de pestañas"
+                  />
+                </div>
+                <div class="parte-2">
+                  <h3 class="product-title">Maybelline Sky High Mascara</h3>
+                  <h4 class="product-price">$5.699,99</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div id="product-3" class="producto">
+                <div class="parte-1">
+                  <span class="descuento">15% off</span>
+                  <img
+                    src="https://www.maybelline.co/~/media/mny/latam/colombia/maquillaje-labios/super%20stay%20vinyl%20ink/tonos%20col/witty/1%20witty.png"
+                    alt="Labial Maybelline"
+                  />
+                </div>
+                <div class="parte-2">
+                  <h3 class="product-title">Here Product Title</h3>
+                  <h4 class="precio-viejo">$6.999,99</h4>
+                  <h4 class="product-price">$5.949,99</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3">
+              <div id="product-4" class="producto">
+                <div class="parte-1">
+                  <span class="nuevo">Nuevo</span>
+                  <img
+                    src="https://getthelookar.vteximg.com.br/arquivos/ids/164094-600-600/222418_labial-liquido-maybelline-superstay-matte-ink-x-5-ml_imagen-1.jpg?v=637611893877000000"
+                    alt="Labial Maybelline"
+                  />
+                </div>
+                <div class="parte-2">
+                  <h3 class="product-title">
+                    Maybelline Superstay Matte Ink Labial
+                  </h3>
+                  <h4 class="product-price">$6.999,99</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="seccion-beneficios py-5" id="beneficios">
+        <div class="container beneficios">
+          <h1>¿Por qué elegir Maybelline?</h1>
+          <div class="row container-beneficio">
+            <div
+              class="col-6 border-right border-dark square d-flex flex-column align-items-center justify-content-center beneficio"
+            >
+              <i class="fa-solid fa-spray-can-sparkles fa-2xl"></i>
+              <h3 class="text-center py-2">Amplia gama de productos</h3>
+
+              <p class="text-center">
+                Desde nuestros famosos rímeles hasta bases de maquillaje,
+                lápices labiales y más, tenemos todo lo que necesitas para
+                lograr un aspecto impresionante.
+              </p>
+            </div>
+            <div
+              class="col-6 square d-flex flex-column align-items-center justify-content-center beneficio"
+            >
+              <i class="fa-solid fa-shield-heart fa-2xl"></i>
+              <h3 class="text-center py-2">
+                Productos auténticos y de calidad garantizada
+              </h3>
+              <p class="text-center">
+                En nuestra tienda en línea, puedes estar seguro de que todos los
+                productos Maybelline que ofrecemos son auténticos y de la más
+                alta calidad.
+              </p>
+            </div>
+          </div>
+          <div class="row container-beneficio">
+            <div
+              class="col-6 border-right square border-dark border-top d-flex flex-column align-items-center justify-content-center beneficio"
+            >
+              <i class="fa-solid fa-truck fa-2xl"></i>
+              <h3 class="text-center py-2">Envíos rápidos y seguros</h3>
+              <p class="text-center">
+                Una vez que realices tu pedido, nos aseguraremos de que llegue a
+                tus manos en el menor tiempo posible y en perfectas condiciones.
+              </p>
+            </div>
+            <div
+              class="col-6 square border-dark border-top d-flex flex-column align-items-center justify-content-center beneficio"
+            >
+              <i class="fa-solid fa-user-check fa-2xl"></i>
+              <h3 class="text-center py-2">Atención al cliente excepcional</h3>
+              <p class="text-center">
+                Nuestro equipo de atención al cliente está siempre dispuesto a
+                ayudarte con cualquier pregunta o inquietud que puedas tener.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="seccion-historia py-5">
+        <div class="container">
+          <div class="row d-flex align-items-center align-content-center">
+            <div class="col-md-6">
+              <img
+                src="http://fashion-diaries.com/wp-content/uploads/2015/06/The-original-maybelline-Glamourdaze-1024x880.jpg"
+                alt="Maybelline Fundación"
+                class="img-fluid img-thumbnail my-2"
+              />
+            </div>
+            <div class="col-md-6">
+              <h2 class="mb-4">Nuestra Historia</h2>
+              <p>
+                Maybelline fue fundada en 1915 por la química y emprendedora
+                estadounidense, Mabel Williams, quien tenía una visión clara:
+                ofrecer productos de belleza accesibles y de alta calidad para
+                todas las mujeres. Ella comenzó creando una máscara de pestañas
+                innovadora y revolucionaria que rápidamente se convirtió en un
+                éxito.
+              </p>
+              <p>
+                A lo largo de los años, Maybelline ha seguido innovando y
+                ampliando su línea de productos, incluyendo labiales, bases,
+                rubores y más. La marca se ha convertido en un referente en la
+                industria de la belleza y ha sido parte fundamental en la vida
+                de millones de mujeres en todo el mundo.
+              </p>
+              <p>
+                Hoy en día, Maybelline continúa ofreciendo productos de
+                maquillaje de vanguardia, inspirando a mujeres de todas las
+                edades a expresar su belleza única y a sentirse seguras de sí
+                mismas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="seccion-opiniones py-5">
+        <div class="container">
+          <h1 class="mb-4">Opiniones de usuarios</h1>
+          <div
+            id="carouselOpiniones"
+            class="carousel carousel-dark slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="opinion">
+                  <img
+                    src="https://cdnstorage.sendbig.com/unreal/female.webp"
+                    alt="Opinión 1"
+                    class="opinion-img"
+                  />
+                  <h3 class="opinion-nombre">Ana Sánchez</h3>
+                  <p class="opinion-text">
+                    "¡Me encanta el maquillaje de esta tienda! Los productos son
+                    de excelente calidad y siempre encuentro el tono perfecto
+                    para mi piel."
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="opinion">
+                  <img
+                    src="https://i.imgur.com/3Oixaop.jpeg"
+                    alt="Opinión 2"
+                    class="opinion-img"
+                  />
+                  <h3 class="opinion-nombre">Juan Martínez</h3>
+                  <p class="opinion-texto">
+                    "La variedad de maquillaje que ofrecen es increíble. Siempre
+                    encuentro lo que necesito para cualquier ocasión y el
+                    servicio al cliente es genial."
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="opinion">
+                  <img
+                    src="https://this-person-does-not-exist.com/static/images/fake-3.jpg"
+                    alt="Opinión 3"
+                    class="opinion-img"
+                  />
+                  <h3 class="opinion-nombre">María González</h3>
+                  <p class="opinion-texto">
+                    "He probado muchos productos de maquillaje, pero los de esta
+                    tienda son los únicos que realmente funcionan para mi piel
+                    sensible. ¡Los recomiendo totalmente!"
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="opinion">
+                  <img
+                    src="https://imgix.bustle.com/inverse/1c/a7/db/94/ca5f/4d3d/a785/2d44a8f0d879/the-generative-adversarial-network-behind-this-person-does-not-exist-has-already-inspired-copycats.png?w=374&h=374&fit=crop&crop=faces&auto=format%2Ccompress"
+                    alt="Opinión 4"
+                    class="opinion-img"
+                  />
+                  <h3 class="opinion-nombre">Betty Casas</h3>
+                  <p class="opinion-texto">
+                    "Excelente calidad y precios asequibles. Compro todos mis
+                    productos de maquillaje aquí y siempre estoy satisfecho con
+                    los resultados."
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="opinion">
+                  <img
+                    src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fdcb60d23-fd08-4eba-aa07-a4985ca65474_1024x1024.jpeg"
+                    alt="Opinión 5"
+                    class="opinion-img"
+                  />
+                  <h3 class="opinion-nombre">Laura Pérez</h3>
+                  <p class="opinion-texto">
+                    "La atención al cliente es excepcional. Siempre están
+                    dispuestos a ayudar y brindar recomendaciones
+                    personalizadas. ¡Gracias por el excelente servicio!"
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="opinion">
+                  <img
+                    src="https://pbs.twimg.com/media/EhWcspoXcAQcxH2?format=jpg&name=medium"
+                    alt="Opinión 6"
+                    class="opinion-img"
+                  />
+                  <h3 class="opinion-nombre">Ricardo Gómez</h3>
+                  <p class="opinion-texto">
+                    "Soy un hombre que también disfruta del maquillaje y esta
+                    tienda es mi lugar favorito para comprar. Tienen productos
+                    increíbles y una gran selección para hombres."
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselOpiniones"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselOpiniones"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="seccion-galeria d-flex justify-content-center flex-column py-5 container"
+        id="galeria"
+      >
+        <div class="container">
+          <h1 class="mb-4">Galería</h1>
+        </div>
+
+        <div class="row container">
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <img
+              src="https://i.blogs.es/da68c3/330247476_731491461652491_4458388141112560275_n/1366_2000.jpeg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Modelo Maybelline"
+            />
+
+            <img
+              src="https://www.maybelline.com.ar/~/media/mny/latam/argentina/maquillaje-labios/color-labios-super-stay-matte-ink/cabecera-matte-ink/gigi-hadid-matte-ink.jpg?h=1440&w=1440&la=es-AR&hash=67E7CDFD88DD9AAC61516550F5003C3EDDB2FFCA"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Gigi Hadid Maybelline"
+              height="500"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="https://images.ecestaticos.com/jB4JQLuvftNNZKK-o6UTNx9aYP8=/0x124:1279x843/1200x1200/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F27e%2Fd18%2F008%2F27ed18008e18e2f0bb0104b42feca033.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Adriana Lima Maybelline"
+              height="600"
+            />
+
+            <img
+              src="https://m.media-amazon.com/images/S/aplus-media/vc/6493f3b7-5f8f-4f64-9e86-adb6602556dc.__CR0,0,300,300_PT0_SX300_V1___.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Modelo Maybelline"
+              height="266"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="https://i.blogs.es/e43f1f/maybelline-mascara-pestanas/450_1000.jpeg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Mascara Modelo Maybelline"
+              height="266"
+            />
+
+            <img
+              src="https://m.media-amazon.com/images/I/81S25+YBDeL.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Yosemite National Park"
+              height="600"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="seccion-formulario container py-5" id="contacto">
+        <form>
+          <h1 class="mb-4">Contáctanos</h1>
+          <div class="row mb-4">
+            <div class="col">
+              <div class="form-outline">
+                <input type="text" id="nombre" class="form-control" />
+                <label class="form-label" for="nombre">Nombre</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-outline">
+                <input type="text" id="apellido" class="form-control" />
+                <label class="form-label" for="apellido">Apellido</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-outline mb-4">
+            <input type="text" id="direccion" class="form-control" />
+            <label class="form-label" for="direccion">Dirección</label>
+          </div>
+
+          <div class="form-outline mb-4">
+            <input type="email" id="email" class="form-control" />
+            <label class="form-label" for="email">Email</label>
+          </div>
+
+          <div class="form-outline mb-4">
+            <input type="number" id="number" class="form-control" />
+            <label class="form-label" for="number">Teléfono celular</label>
+          </div>
+
+          <div class="form-outline mb-4">
+            <label class="form-label" for="problema"
+              >Cuéntanos sobre tu problema</label
+            >
+            <textarea class="form-control" id="problema" rows="4"></textarea>
+          </div>
+
+          <div class="form-check d-flex justify-content-left mb-4">
+            <input
+              class="form-check-input me-2"
+              type="checkbox"
+              value=""
+              id="checkbox"
+              checked
+            />
+            <label class="form-check-label" for="checkbox">
+              Quiero recibir el nuevosletter y mantenerme al tanto de
+              descuentos.
+            </label>
+          </div>
+
+          <button
+            type="submit"
+            class="btn btn-secondary text-dark btn-block mb-4 py-2 w-100"
+          >
+            Enviar
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer
+      class="d-flex flex-wrap justify-content-between container align-items-center my-5 border-top border-bottom py-3"
+    >
+      <p class="col-md-4 mb-0 text-white">&copy; 2023 Constanza Delfino</p>
+
+      <a
+        href="/"
+        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto text-decoration-none"
+      >
+        <i class="fa-brands fa-instagram fa-xl mx-2"></i>
+        <i class="fa-brands fa-facebook-f fa-xl mx-2"></i>
+        <i class="fa-brands fa-twitter fa-xl mx-2"></i>
+        <i class="fa-brands fa-youtube fa-xl mx-2"></i>
+      </a>
+
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item">
+          <a href="#home" class="nav-link px-2 text-white">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#productos" class="nav-link px-2 text-white">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a href="#beneficios" class="nav-link px-2 text-white"
+            >Sobre nosotros</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#galeria" class="nav-link px-2 text-white">Galería</a>
+        </li>
+        <li class="nav-item">
+          <a href="#formulario" class="nav-link px-2 text-white">Contáctanos</a>
+        </li>
+      </ul>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/414aed3c86.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

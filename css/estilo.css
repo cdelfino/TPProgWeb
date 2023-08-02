@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Trocchi&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins";
+  background-color: #131313;
+  color: white;
+}
+
+h1,
+h3 {
+  font-family: "Trocchi", serif;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+header button
+
+/*-------SECCCIONES--------*/
+.seccion-productos,
+.seccion-beneficios {
+  width: 100%;
+}
+
+.seccion-productos {
+  padding: 80px 0 54px;
+  background-color: white;
+  color: #131313;
+}
+
+.seccion-beneficios {
+  color: #131313;
+  background-color: #fe7f88;
+  color: #131313;
+  padding: 67px;
+}
+
+.seccion-galeria {
+  background-color: #131313;
+  width: 100%;
+}
+
+/*----------------------*/
+
+.seccion-productos h3 {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.seccion-productos .header {
+  margin-bottom: 50px;
+}
+
+.seccion-productos .header h3 {
+  font-size: 1rem;
+  color: #000000;
+  font-weight: 500;
+}
+
+.seccion-productos .header h2 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #444444;
+}
+
+.seccion-productos .producto {
+  margin-bottom: 26px;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.seccion-productos .producto .parte-1 {
+  position: relative;
+  height: 290px;
+  max-height: 290px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.seccion-productos .producto .parte-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  padding: 20px;
+  transition: transform 0.3s ease;
+  transform-origin: center center;
+  border-radius: 9px;
+}
+
+.seccion-productos .producto .parte-1 .descuento,
+.seccion-productos .producto .parte-1 .nuevo {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: #ffffff;
+  background-color: #fe302f;
+  padding: 2px 8px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  transition: opacity 0.3s ease;
+}
+
+.seccion-productos .producto .parte-1 .nuevo {
+  left: 0;
+  background-color: #444444;
+}
+
+.seccion-productos .producto .parte-2 .product-title {
+  font-size: 1rem;
+}
+
+.seccion-productos .producto .parte-2 h4 {
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.seccion-productos .producto .parte-2 .precio-viejo {
+  position: relative;
+  padding: 0 7px;
+  margin-right: 2px;
+  opacity: 0.6;
+}
+
+.seccion-productos .producto .parte-2 .precio-viejo::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #444444;
+  transform: translateY(-50%);
+}
+
+.seccion-productos .producto:hover .parte-1 {
+  transform: scale(1.1);
+}
+
+.seccion-productos .producto:hover .parte-1 {
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.beneficios {
+  width: 85%;
+}
+
+.beneficio {
+  padding: 70px 90px;
+}
+
+.border-right {
+  border-right: 1px solid rgb(33, 37, 41);
+}
+
+.seccion-beneficios i {
+  padding: 30px 0;
+  color: #131313;
+}
+
+.seccion-formulario button {
+  background-color: #5ed662;
+  border: none;
+}
+
+.footer {
+  background-color: #131313 !important;
+}
+
+footer li {
+  font-size: 13px;
+}
+
+footer i {
+  color: white;
+}
+
+.seccion-opiniones {
+  background-color: #ffffff;
+  color: #131313;
+  padding: 67px;
+  display: flex;
+  justify-content: center;
+}
+
+.opinion-img {
+  max-width: 100px;
+  border-radius: 50%;
+  margin-bottom: 7px;
+}
+
+.opinion-nombre {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.opinion {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 22px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.opinion:hover {
+  transform: translateY(-5px);
+  transition: ease 0.2s;
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+.seccion-galeria img {
+  object-fit: cover;
+}
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 790px) {
+  .beneficio {
+    border: none !important;
+    width: 100%;
+  }
+  .container-beneficio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1080px) {
+  h1 {
+    text-align: center;
+  }
+  .beneficio {
+    padding: 31px 33px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .beneficio {
+    flex-direction: column;
+  }
+
+  .beneficio {
+    border: none;
+  }
+
+  .beneficio i {
+    font-size: 36px;
+  }
+}
