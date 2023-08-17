@@ -9,7 +9,7 @@ Este es el TP Final de la materia Programación Web I de la carrera Analista de 
 
 ## Demo
 
-Click [aquí](https://cdelfino.github.io/TPProgWeb/]) para ver la demo.
+Click [aquí](https://cdelfino.github.io/TPProgWeb]) para ver la demo.
 
 ## Características Principales
 
